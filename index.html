@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Climate Connect</title>
+        <meta name="description" content="Weather, Global Warming and Climate Change">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Main css -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="image_src" type="img/jpg" href="img/preview.jpg">
+        <link rel="icon" href="img/logo-imgsrc.jpg" sizes="192x192"/>
+    </head>
+    <body>
+        <!--Preloader-->
+        <div id="loader"></div>
+        <!--Header-->
+        <header class="header">
+            <a href="index.html" class="logo"><img src="img/logo_03.png" width="130" height="60"></a>
+
+            <nav class="navbar">
+                <li>
+                <a href="#home" class="typography">Home</a> 
+                <a href="#Activities" class="typography">Activities</a> 
+                <a href="#container-donation" class="typography">Donate</a> 
+                <a href="join.html" class="typography">Join</a>
+                <a href="#about-direct" class="typography">About Us</a>
+            </li> 
+            </nav>
+
+            <!--Button-->
+            <div class="icons">
+                <div class="fa fa-bars" id="menu-btn"></div>
+                <div class="fa fa-user" id="login-btn"></div>
+            </div>
+        <form action="" class="login-form">
+            <h3>Sign in</h3>
+            <input type="email" name="" placeholder="Enter your email" id="" class="box">
+            <input type="password" name="" placeholder="Enter your password" id="" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">Remember me</label>
+            </div>
+            <input type="submit" value="Sign in" class="btn">
+            <div class="links">
+                <a href="">Forget password</a>
+                <a href="">Sign up</a>
+            </div>
+        </form>
+        </header>
+        <!--Section 1-->
+        <section class="home" id="home">
+            <div class="content">
+                <h3>Climate Connect<br><span>Weather, Global Warming and Climate Change.</span></h3>
+                <h4>"The earth is what we all have in common." - Wendell Berry</h4>
+                <a href="#container-donation" class="btn">Donate now</a>
+            </div>
+        </section>
+        <div class="company-details">
+            <div class="item">
+                <h1>3M+</h1>
+            <h3>CHILDREN<br>SPONSORED</h3>
+            <a href="" class="company-btn">Learn more</a>
+            </div>
+            <div class="item">
+                <h1>3.2M</h1>
+            <h3>PEOPLE GAINED<br>CLEAN WATER</h3>
+            <a href="" class="company-btn">Learn more</a>
+            </div>
+            <div class="item">
+                <h1>189</h1>
+            <h3>EMERGENCY<br>RESPONSE</h3>
+            <a href="" class="company-btn">Learn more</a>
+            </div>
+        </div>
+        <!--Proj persuasion-->
+        <div class="weneedu">
+        <h1 class="proj-persuasion">WE NEED YOU NOW</h1>
+        <p class="proj-details">We need all countries and all sectors of society to
+             act now—it is in the interests of everyone. It is doable.
+        </p>
+    </div>
+           <!--Section 2-->
+        <section class="Activities" id="Activities">
+            <div class="wrapper">
+                <div class="proj-img">
+                    <img src="img/africa-water.jpg" alt="">
+                </div>
+                <div class="project-info">
+                    <i class="fa fa-user"></i><a href="https://www.facebook.com/LacsondaveII" target="_blank" class="socials">Dave Lacson</a>
+                    <div class="proj-date">
+                        <span>Sunday</span>
+                        <span>May 29 2022</span>
+                    </div>
+                    <h1 class="proj-title">Clean Water and Sanitation</h1>
+                    <p class="proj-text">663 million people globally lack access to safe water supply 
+                        sources with 350 million people in Africa alone affected everyday. 
+                        The health implications are staggering. 2 million people die every year due 
+                        to water-borne diarrheal diseases, 
+                        most of them children under the age of 5.</p>
+                        <a href="" class="proj-post">Read more</a>
+                </div>
+            </div>
+        </section>
+        <section class="Activities" id="Activities1">
+            <div class="wrapper">
+                <div class="proj-img">
+                    <img src="img/deforestation.jpg" alt="">
+                </div>
+                <div class="project-info">
+                    <i class="fa fa-user"></i><a href="https://www.facebook.com/LacsondaveII" target="_blank" class="socials">Dave Lacson</a>
+                    <div class="proj-date">
+                        <span>Wednesday</span>
+                        <span>June 1 2022</span>
+                    </div>
+                    <h1 class="proj-title">Tree for a Change</h1>
+                    <p class="proj-text">According to the FAO, Nigeria has the world's highest deforestation
+                         rate of primary forests. It has lost more than half of its primary forest in the last
+                          five years. The causes cited are logging, subsistence agriculture, 
+                        and the collection of fuelwood. Almost 90% of West Africa's rainforest has been destroyed.</p>
+                        <a href="" class="proj-post">Read more</a>
+                </div>
+            </div>
+        </section>
+        <section class="Activities" id="Activities2">
+            <div class="wrapper">
+                <div class="proj-img">
+                    <img src="img/river-resto.jpg" alt="">
+                </div>
+                <div class="project-info">
+                    <i class="fa fa-user"></i><a href="https://www.facebook.com/MichaelJohnnnnn/" target="_blank" class="socials">Michael John Diopenes</a>
+                    <div class="proj-date">
+                        <span>Tuesday</span>
+                        <span>July 5 2022</span>
+                    </div>
+                    <h1 class="proj-title">River Restoration for Climate Change Adaptation (RIOS)</h1>
+                    <p class="proj-text">Mexico's mountain ranges, valleys and coastal plains form a set of 757 watersheds.
+                         Increased vulnerability to landslides, floods and droughts have been forecast as a direct 
+                         result of extreme precipitation in the two drainage basins targeted in this project. In the 
+                         lower part of these basins, important human settlements have become significantly exposed to
+                          the effects of climate change. This project will include capitalising on lessons learned in
+                           connecting watersheds and restoring rivers.</p>
+                        <a href="" class="proj-post">Read more</a>
+                </div>
+            </div>
+        </section>
+        <div class="donate-section">
+            <div class="inner-container">
+                <h1>Donate & Help</h1>
+                <p class="text">
+                    Every day we bring hope to millions of children in the world's 
+                    hardest places as a sign of God's unconditional love.
+                </p>
+                <div class="dnt">
+                    <a href="" class="donate-btn">Donate now</a>
+                </div>
+                <i class="fa fa-user"></i><a href="" target="_blank" class="authors">Dave Lacson & Michael John Diopenes</a>
+            </div>
+        </div>
+        <section id="testimonial">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title">
+                            <h2>Patron Testimonials</h2>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Slide Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#testimonialCarousel" data-slide-to="1"></li>
+                                <li data-target="#testimonialCarousel" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <!-- Slide 1 -->
+                                <div class="carousel-item active">
+                                    <div class="carousel-content">
+                                        <div class="client-img"><img src="img/johnny.jpg" alt="Testimonial Slider" /></div>
+                                        <p><i>I came across Climate Connect after searching the internet for ideas for 
+                                            donation for the poor. I was initially sceptical as I have come across non-profit donation sites
+                                             before that see the charities getting hardly any money after the reserve was met however I was so
+                                             happy after chatting with Climate Connect to learn how they work.</i></p>
+                                        <h3><span>-</span> John Doe</h3>
+                                    </div>
+                                </div>
+                                <!-- Slide 2 -->
+                                <div class="carousel-item">
+                                    <div class="carousel-content">
+                                        <div class="client-img"><img src="img/karen.jpg" alt="Testimonial Slider" /></div>
+                                        <p><i>I would highly recommend Climate Connect to any charities or fundraisers looking 
+                                            for outstanding quality 
+                                            prizes and great service from their lovely team!</i></p>
+                                        <h3><span>-</span> Jackie Smith </h3>
+                                    </div>
+                                </div>
+                                <!-- Slide 3 -->
+                                <div class="carousel-item">
+                                    <div class="carousel-content">
+                                        <div class="client-img"><img src="img/kumari.jpg" alt="Testimonial Slider" /></div>
+                                        <p><i>लोरेम इप्सम के मार्ग के कई रूप उपलब्ध हैं, लेकिन अधिकांश को किसी न किसी रूप में परिवर्तन का सामना करना पड़ा है। के मार्ग के कई रूप हैं</i></p>
+                                        <h3><span>-</span> Rajnish Kumar</h3>
+                                    </div>
+                                </div>
+                                <!-- Slider pre and next arrow -->
+                                <a class="carousel-control-prev text-white" href="#testimonialCarousel" role="button" data-slide="prev">
+                                    <i class="fa fa-angle-left"></i>
+                                </a>
+                                <a class="carousel-control-next text-white" href="#testimonialCarousel" role="button" data-slide="next">
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="container-donation">
+            <form action="">
+            <div class="row-donation">
+                <div class="col-donation">
+                    <h3 class="donation-title">Billing Address</h3>
+                    <div class="input-box">
+                        <span>Full name :</span>
+                        <input type="text" placeholder="John Doe">
+                    </div>
+                    <div class="input-box">
+                        <span>Email :</span>
+                        <input type="text" placeholder="example@example.com">
+                    </div>
+                    <div class="input-box">
+                        <span>Address :</span>
+                        <input type="text" placeholder="Street, Blk&lot, locality">
+                    </div>
+                    <div class="input-box">
+                        <span>City :</span>
+                        <input type="text" placeholder="Bacolod City">
+                    </div>
+
+                    <div class="flex">
+                        <div class="input-box">
+                            <span>State :</span>
+                            <input type="text" placeholder="Philippines">
+                        </div>
+                        <div class="input-box">
+                            <span>Zip code :</span>
+                            <input type="text" placeholder="123">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-donation">
+                    <h3 class="donation-title">Donation</h3>
+                    <!--Allowed Cards imgs-->
+                    <div class="input-box">
+                        <span>Allowed Cards:</span>
+                        <img src="img/card_img.png" alt="accepted-cards">
+                    </div>
+                    <div class="input-box">
+                        <span>Name on Card :</span>
+                        <input type="text" placeholder="Mr. John Doe">
+                    </div>
+                    <div class="input-box">
+                        <span>Credit Card Number :</span>
+                        <input type="number" placeholder="1111-2222-3333-4444">
+                    </div>
+                    <div class="input-box">
+                        <span>Exp Month :</span>
+                        <input type="text" placeholder="January">
+                    </div>
+                    <div class="flex">
+                        <div class="input-box">
+                            <span>Exp Year :</span>
+                            <input type="text" placeholder="2022">
+                        </div>
+                        <div class="input-box">
+                            <span>CVV :</span>
+                            <input type="text" placeholder="123">
+                        </div>
+                        <div class="input-box">
+                            <span>Amount :</span>
+                            <input type="text" placeholder="$0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" value="Proceed To Checkout 🤍" class="submit-button">
+        </form>
+        </div>
+        <div class="container">
+            <div class="row">
+                <br/>
+               <div class="col text-center">
+                <h2>Donation Counter</h2>
+                <p>GlobalGiving makes it easy to donate to reliable, locally-led disaster relief and recovery efforts around the world.</p>
+                </div>        
+                
+            </div>
+                <div class="row text-center">
+                    <div class="col">
+                    <div class="counter">
+              <i class="fa fa-users fa-2x"></i>
+              <h2 class="timer count-title count-number" data-to="11215" data-speed="1500"></h2>
+               <p class="count-text ">Donors</p>
+            </div>
+                    </div>
+                      <div class="col">
+                       <div class="counter">
+              <i class="fa fa-credit-card-alt fa-2x"></i>
+              <h2 class="timer count-title count-number" data-to="1929940" data-speed="1500"></h2>
+              <p class="count-text ">Pesos</p>
+            </div>
+                      </div>
+                      <div class="col">
+                          <div class="counter">
+              <i class="fa fa-check fa-2x"></i>
+              <h2 class="timer count-title count-number" data-to="54" data-speed="1500"></h2>
+              <p class="count-text ">Project Complete</p>
+            </div></div>
+                      <div class="col">
+                      <div class="counter">
+              <i class="fa fa-handshake-o fa-2x"></i>
+              <h2 class="timer count-title count-number" data-to="157" data-speed="1500"></h2>
+              <p class="count-text ">Companies</p>
+            </div>
+             </div>
+            </div>
+        </div>
+      
+        <div id="about-direct">
+        <div class="wrapper-team">
+        <div class="container">
+            <div class="itnro">
+                <h1>Experienced & Professional Team</h1>
+                <p>You can relay on our amazing features list and also our customer services will<br>s be great experience for you without doubt and in no-time</p>
+            </div>
+            <div class="row text-center">
+        
+                <!-- Team item -->
+                <div class="col-xl-3 col-sm-6 mb-5">
+                    <div class="bg-white rounded shadow-sm py-5 px-4"><img src="img/user_01.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                        <h5 class="mb-0">Michael John Diopenes</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+                        <ul class="social mb-0 list-inline mt-3">
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div><!-- End -->
+        
+                <!-- Team item -->
+                <div class="col-xl-3 col-sm-6 mb-5">
+                    <div class="bg-white rounded shadow-sm py-5 px-4"><img src="img/dave.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                        <h5 class="mb-0">Dave Lacson</h5><span class="small text-uppercase text-muted">COO - Chief Operating Officer</span>
+                        <ul class="social mb-0 list-inline mt-3">
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div><!-- End -->
+        
+                <!-- Team item -->
+                <div class="col-xl-3 col-sm-6 mb-5">
+                    <div class="bg-white rounded shadow-sm py-5 px-4"><img src="img/lebron.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                        <h5 class="mb-0">Lebron James</h5><span class="small text-uppercase text-muted">CFO - Chief Financial Officer</span>
+                        <ul class="social mb-0 list-inline mt-3">
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div><!-- End -->
+        
+                <!-- Team item -->
+                <div class="col-xl-3 col-sm-6 mb-5">
+                    <div class="bg-white rounded shadow-sm py-5 px-4"><img src="img/toni.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                        <h5 class="mb-0">Toni Fowler</h5><span class="small text-uppercase text-muted">CMO - Chief Marketing Officer</span>
+                        <ul class="social mb-0 list-inline mt-3">
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div><!-- End -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <section id="contactus">
+    <div class="content">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-10">
+              
+              <div class="row align-items-center">
+                <div class="col-lg-7 mb-5 mb-lg-0">
+    
+                  <h2 class="mb-five">Fill the form. <br> It's easy.</h2>
+    
+                  <form action="https://formspree.io/f/myyoobzj" class="border-right pr-5 mb-5" method="post" id="contactForm" name="contactForm">
+                    <div class="row">
+                      <div class="col-md-6 form-group">
+                        <input type="text" class="form-control" name="fname" id="fname" placeholder="First name">
+                      </div>
+                      <div class="col-md-6 form-group">
+                        <input type="text" class="form-control" name="lname" id="lname" placeholder="Last name">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12 form-group">
+                        <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+                      </div>
+                    </div>
+    
+                    <div class="row">
+                      <div class="col-md-12 form-group">
+                        <textarea class="form-control" name="message" id="message" cols="30" rows="7" placeholder="Write your message"></textarea>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <input type="submit" value="Send Message" class="btn-con rounded-0 py-2 px-6">
+                        <span class="submitting"></span>
+                      </div>
+                    </div>
+                  </form>
+    
+                </div>
+                <div class="col-lg-4 ml-auto">
+                  <h3 class="mb-4">How Can We Help?</h3>
+                  <p>If you need something else, you are invited to fill out the contact form.</p>
+                  <p><a href="#">Read more</a></p>
+                </div>
+              </div>
+            </div>  
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <div class="faq_area section_padding_130" id="faq">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-lg-6">
+                    <!-- Section Heading-->
+                    <div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <h3><span>Frequently </span> Asked Questions</h3>
+                        <p>About Our Charity Research and Recommendations.</p>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <!-- FAQ Area-->
+                <div class="col-12 col-sm-10 col-lg-8">
+                    <div class="accordion faq-accordian" id="faqAccordion">
+                        <div class="card border-0 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                            <div class="card-header" id="headingOne">
+                                <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What is the difference between weather and climate?<span class="lni-chevron-up"></span></h6>
+                            </div>
+                            <div class="collapse" id="collapseOne" aria-labelledby="headingOne" data-parent="#faqAccordion">
+                                <div class="card-body">
+                                    <p>"Weather" refers to the day-to-day state of the atmosphere such as the combination of
+                                         temperature, humidity, rainfall, wind, and other factors. "Climate" describes the 
+                                         weather of a place averaged over a period of time, often 30 years. Think about it 
+                                         this way: climate is something that can be expected to happen in general, like a 
+                                         cold winter season, whereas weather is what a person might experience on any given day, 
+                                        like a snowstorm in January or a sunny day in July.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-0 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                            <div class="card-header" id="headingTwo">
+                                <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">What is climate change?<span class="lni-chevron-up"></span></h6>
+                            </div>
+                            <div class="collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+                                <div class="card-body">
+                                    <p>Climate change involves significant changes in average conditions—such as temperature,
+                                         precipitation, wind patterns, and other aspects of climate—that occur over years, 
+                                         decades, centuries, or longer. Climate change involves longer-term trends, such as 
+                                         shifts toward warmer, wetter, or drier conditions. </p>
+                                    <p>These trends can be caused by 
+                                        natural variability in climate over time, as well as human activities
+                                        that add greenhouse gases to the atmosphere like burning fossil fuels for energy.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-0 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                            <div class="card-header" id="headingThree">
+                                <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Why so pogi Michael John Diopenes?<span class="lni-chevron-up"></span></h6>
+                            </div>
+                            <div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#faqAccordion">
+                                <div class="card-body">
+                                    <p>This is a laughter medicine, and my team and I are laughing with this question. Joking aside, the answer to your question is to ask my mother and father.</p>
+                                    <p>Thank you - that is a wonderful compliment</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Support Button-->
+                    <div class="support-button text-center d-flex align-items-center justify-content-center mt-4 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                        <i class="lni-emoji-sad"></i>
+                        <p class="mb-0 px-2">Can't find your answers?</p>
+                        <a href="#contactus"> Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <footer class="footer-14398">
+      
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-md-3">
+              <a href="#" class="footer-site-logo">Climate Connect</a>
+              <p>Weather, Global Warming and Climate Change</p>
+            </div>
+            <div class="col-md-2 ml-auto">
+              <h3>Links</h3>
+              <ul class="list-unstyled links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Activities">Activities</a></li>
+                <li><a href="#container-donation">Donation</a></li>
+                <li><a href="#about-direct">About us</a></li>
+                <li><a href="join.html">Join</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 ml-auto">
+              <h3>Donation</h3>
+              <ul class="list-unstyled links">
+                <li><a href="#">Billing Address</a></li>
+                <li><a href="#">Donation Counter</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 ml-auto">
+              <h3>About</h3>
+              <ul class="list-unstyled links">
+                <li><a href="#">Our team</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Social links</a></li>
+                <li><a href="#">Roles</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-12 pb-4">
+              <div class="line"></div>
+            </div>
+            <div class="col-md-6 text-md-left">
+              <ul class="list-unstyled link-menu nav-left">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms &amp; Conditions</a></li>
+                <li><a href="#">Code of Conduct</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 text-md-right">
+              <ul class="list-unstyled social nav-right">
+                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="#"><span class="fa fa-pinterest"></span></a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-7">
+              <p><small>© 2022 Climate Connect | All rights reserved. Created by: Michael John Diopenes & Dave Lacson</small></p>
+            </div>
+          </div>
+        </div>
+    </footer>
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="main.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>

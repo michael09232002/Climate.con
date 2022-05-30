@@ -1,0 +1,106 @@
+<div class="comments-section ">
+                                    <div id="comments" class="comments-area">
+                                        <h2 class="comments-title title-style-2">Comments</h2>
+                                        <ol class="comment-list">
+                                            <li id="comment-4" class="comment even thread-even depth-1 parent">
+                                                <div id="div-comment-4" class="comment-body">
+                                                    <footer class="comment-meta">
+                                                        <div class="comment-author vcard">
+                                                            <img src="img/pinoy.jfif"
+                                                                 class="avatar photo" alt="avatar"><b class="fn">Reynald
+                                                            Paglaum</b><span class="says">says:</span>
+                                                        </div>
+                                                        <!-- .comment-author -->
+                                                        <div class="comment-metadata">
+                                                            <a href="#">
+                                                                <time datetime="2016-10-21T13:31:45+00:00">October 21,
+                                                                    2016 at 1:31 pm
+                                                                </time>
+                                                            </a>
+                                                        </div>
+                                                        <!-- .comment-metadata -->
+                                                    </footer>
+                                                    <!-- .comment-meta -->
+                                                    <div class="comment-content">
+                                                        <p>Sus bagay lg na siya na karma yarn! mayu kana bala sumbagon ya iya pakaisa na babahi na perdi lg sa last level na Wordscapes </p>
+                                                    </div>
+                                                    <!-- .comment-content -->
+                                                    <div class="reply">
+                                                        <a rel="nofollow" class="comment-reply-link" href="#"
+                                                           aria-label="Reply to Sculpture Fan">Reply</a>
+                                                    </div>
+                                                </div>
+                                                <!-- .comment-body -->
+                                                <ol class="children">
+                                                    <li id="comment-5"
+                                                        class="comment byuser comment-author-melchoyce bypostauthor odd alt depth-2 parent">
+                                                        <div id="div-comment-5" class="comment-body">
+                                                            <footer class="comment-meta">
+                                                                <div class="comment-author vcard">
+                                                                    <img src="img/indian.jfif"
+                                                                         class="avatar photo" alt="avatar"><a href="#"
+                                                                                                              rel="external nofollow"
+                                                                                                              class="url">Ramesh
+                                                                    Mohammed Naya</a><span class="says">says:</span>
+                                                                </div>
+                                                                <!-- .comment-author -->
+                                                                <div class="comment-metadata">
+                                                                    <a href="#">
+                                                                        <time datetime="2016-10-21T13:31:45+00:00">
+                                                                            October 21, 2016 at 1:31 pm
+                                                                        </time>
+                                                                    </a>
+                                                                </div>
+                                                                <!-- .comment-metadata -->
+                                                            </footer>
+                                                            <!-- .comment-meta -->
+                                                            <div class="comment-content">
+                                                                <p>We can't understand you unless you speak English. You have entered the international web.</p>
+                                                            </div>
+                                                            <!-- .comment-content -->
+                                                            <div class="reply">
+                                                                <a rel="nofollow" class="comment-reply-link" href="#"
+                                                                   aria-label="Reply to Sculpture Fan">Reply</a>
+                                                            </div>
+                                                        </div>
+                                                        <!-- .comment-body -->
+                                                        <ol class="children">
+                                                            <li id="comment-6" class="comment even depth-3">
+                                                                <div id="div-comment-6" class="comment-body">
+                                                                    <footer class="comment-meta">
+                                                                        <div class="comment-author vcard">
+                                                                            <img src="img/pinoy.jfif"
+                                                                                 class="avatar photo" alt="avatar"><b
+                                                                                class="fn">Reynald Paglaum</b><span
+                                                                                class="says">says:</span>
+                                                                        </div>
+                                                                        <!-- .comment-author -->
+                                                                        <div class="comment-metadata">
+                                                                            <a href="#">
+                                                                                <time datetime="2016-10-21T13:31:45+00:00">
+                                                                                    October 21, 2016 at 1:31 pm
+                                                                                </time>
+                                                                            </a>
+                                                                        </div>
+                                                                        <!-- .comment-metadata -->
+                                                                    </footer>
+                                                                    <!-- .comment-meta -->
+                                                                    <div class="comment-content">
+                                                                        <p>I said he deserved it because of his bad attitude, and karma is punishing him severely.</p>
+                                                                    </div>
+                                                                    <!-- .comment-content -->
+                                                                    <div class="reply">
+                                                                        <a rel="nofollow" class="comment-reply-link"
+                                                                           href="#" aria-label="Reply to Sculpture Fan">Reply</a>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- .comment-body -->
+                                                            </li>
+                                                            <!-- #comment-## -->
+                                                        </ol>
+                                                        <!-- .children -->
+                                                    </li>
+                                                    <!-- #comment-## -->
+                                                </ol>
+                                                <!-- .children -->
+                                            </li>
